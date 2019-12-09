@@ -1,9 +1,10 @@
 import React from 'react'
+import Recording from 'Views/Recording'
 
 export default class App extends React.Component {
   render () {
     return (
-      <h1>Hola mundo!!</h1>
+      <Recording />
     )
   }
 }
